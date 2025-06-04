@@ -30,6 +30,12 @@ class App : Application() {
                             +"Hello world"
                         }
                     }
+
+                    route("/hello") {
+                        div {
+                            +"Hello vishal"
+                        }
+                    }
                 }
             }
         }
